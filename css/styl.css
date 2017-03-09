@@ -1,0 +1,130 @@
+/* definicje ogolne */
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: verdana;
+	font-size: 12px;
+	color: black;
+}
+
+a, a:visited {
+	color: brown;
+	text-decoration: none;
+	border-bottom: 1px dashed brown;
+}
+
+a:hover {
+	border-bottom: 1px solid brown;
+}
+
+h1 {
+	padding: 0;
+	margin: 3px;
+	font-size: 15px;
+	
+}
+
+/* klasy ogolne */
+
+table.tabela {
+	border: 1px solid chocolate;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+table.tabela th {
+	border-bottom: 1px solid chocolate;
+	background-color: AntiqueWhite;
+	text-align: center;
+}
+
+table.tabela tr.kolorowy {
+	background-color: snow ;
+}
+
+div#msg {
+	float: left;
+	clear: both;
+	margin: 10px;
+	padding: 3px;
+	border: 1px solid chocolate;
+	background-color: white;
+	font-weight: bold;
+	color: red;
+}
+
+/* styl dla index.php */
+
+div#container {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+div#header {
+	clear: left;
+	float: left;
+	width: 999px;
+	height: 50px;
+	background-color: BurlyWood;
+	border: 1px solid Brown;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+div#menu {
+	clear: left;
+	float: left;
+	width: 200px;
+	background-color: beige;
+	border: 1px solid Brown;
+	border-right: 0;
+	font-size: 13px;
+}
+
+div#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div#menu ul li {
+	margin: 5px;
+	padding: 0;
+}
+
+div#body {
+	float: left;
+	text-align: left;
+	width: 797px;
+	border: 1px solid Brown;
+	border-left: 1px dotted Brown;
+	background-color: ghostwhite;
+}
+
+div#footer {
+	clear: left;
+	float: left;
+	width: 100%;
+	margin-top: 8px;
+	font-size: 10px;
+}
+
+/* styl dla katalog.php */
+
+table tfoot td {
+	text-align: center;
+	border-top: 1px solid chocolate;
+	padding: 3px 0 3px 0;
+}
+
+table tfoot td a, table tfoot td a:visited {
+	border-bottom: none;
+	margin-right: 2px;
+}
